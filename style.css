@@ -1,0 +1,966 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+#layer1{
+    justify-content:center;
+    background-color: #F8DADE;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-left: 200px;
+}
+#layer1 h3{
+    letter-spacing: 3px;
+    color: #bd4656;
+}
+#layer1_part2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#layer1_icons{
+    background-color: #fa9ca9;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 0 15px;
+}
+#layer1_icons i{
+    font-size: 20px;
+    font-weight: 500;
+}
+#cart{
+    font-size: 20px;
+    font-weight: 100;
+}
+#layer2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 550px;
+}
+#menu{
+    font-size: 45px;
+    color: #d1bdc1;
+    font-weight: 500;
+    margin-left: 160px;
+    z-index: 9;
+    caret-color: transparent;
+    cursor: pointer;
+}
+#layer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #F8DADE;
+    padding: 15px 0;
+}
+#layer3 h4{
+    font-size: 15px;
+    font-family: gilroy;
+    font-weight: 900;
+    color: #e47893;
+}
+#middle{
+    background-color:  #FBEDEC;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+#middle_text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+}
+#middle_text h2{
+    font-family: kimberly signature;
+    font-size: 70px;
+    font-weight: 500;
+    color: #E9638A;
+}
+#middle_text h1{
+    font-family: love craft;
+    font-size: 85px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    margin-top: 40px;
+    line-height: 100px;
+}
+#middle_text h3{
+    font-family: rose quay;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    color: #EFA755;
+}
+#middle_text button{
+    padding: 22px 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 50;
+    text-transform: uppercase;
+    border: none;
+    background-color: #CCC8F8;
+    color: white;
+}
+#middle_text button:hover{
+    background-color: #EC849C;
+}
+#middle_img{
+    position: absolute;
+    top: 11%;
+    left: 12%;
+    height: 642px;
+    width: 550px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.137);
+}
+#middle_img img{
+    padding: 10px 10px;
+}
+#part3{
+    padding: 100px 0;
+    text-align: center;
+}
+#part3 h1{
+    color: #EFA755;
+    font-size: 55px;
+    font-family: rose quay;
+    font-weight: 400;
+}
+#part3 p{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: gilroy;
+    margin-top: 30px;
+    font-weight: 300;
+}
+#part4{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FBEDEC;
+}
+#part4_two{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#border{
+    width: 339px;
+    height: 393px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.233);
+    position: relative;
+}
+#one_img img{
+    padding: 10px 0;
+}
+#one_img{
+    width: 419px;
+    height: 525px;
+    background-color: #F0A6B7;
+    padding: 40px 40px;
+    font-family: GILROY;
+}
+#border h1{
+    font-weight: 450;
+    margin-top: 15px;
+}
+#img_cover{
+    background-color: transparent;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 319px;
+    height: 373px;
+    transition: all ease .5s;
+}
+#img_cover:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+}
+#two_img img{
+    padding: 10px 0;
+}
+#two_img{
+    width: 419px;
+    height: 525px;
+    background-color: #F0A6B7;
+    padding: 40px 40px;
+    font-family: GILROY;
+}
+#three_img img{
+    padding: 10px 0;
+}
+#three_img{
+    width: 419px;
+    height: 525px;
+    background-color: #F0A6B7;
+    padding: 40px 40px;
+    font-family: GILROY;
+}
+#part4_one h1{
+    font-size: 60px;
+    font-family: kimberly signature;
+    font-weight: 450;
+    color: #E9638A;
+}
+#part4_three button{
+    padding: 22px 38px;
+    font-size: 18px;
+    margin-top: 70px;
+    background-color: #EFA755;
+    color: white;
+    border: none;
+}
+#part4_three button:hover{
+    background-color: #F1ACBD;
+}
+#part5{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#part5_one{
+    width: 340px;
+    height: 350px;
+    background-color: #EC849C;
+    text-align: center;
+    padding-top: 60px;
+}
+#part5_two{
+    width: 340px;
+    height: 350px;
+    background-color: #CCC8F1;
+    text-align: center;
+    padding-top: 60px;
+}
+#part5_three{
+    width: 340px;
+    height: 350px;
+    background-color: #F3BECB;
+    text-align: center;
+    padding-top: 60px;
+}
+#part5_four{
+    width: 340px;
+    height: 350px;
+    background-color: #EFA755;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+}
+#part5_one h2{
+    font-size: 115px;
+    font-family: kimberly signature;
+    color: white;
+    font-weight: 200;
+}
+#part5_one h1{
+    font-size: 65px;
+    font-family: love craft;
+    color: white;
+    font-weight: 400;
+}
+#part5_two h2{
+    font-size: 115px;
+    font-family: kimberly signature;
+    color: white;
+    font-weight: 200;
+}
+#part5_two h1{
+    font-size: 55px;
+    font-family: love craft;
+    color: white;
+    font-weight: 200;
+}
+#part5_three h2{
+    font-size: 115px;
+    font-family: kimberly signature;
+    color: white;
+    font-weight: 200;
+}
+#part5_three h1{
+    font-size: 60px;
+    font-family: love craft;
+    color: white;
+    font-weight: 200;
+}
+#part5_four h2{
+    font-size: 115px;
+    font-family: kimberly signature;
+    color: white;
+    font-weight: 200;
+}
+#part5_four h1{
+    font-size: 65px;
+    font-family: love craft;
+    color: white;
+    font-weight: 200;
+}
+#upper{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 40px;
+    color: white;
+}
+#lower{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 65px;
+    color: white;
+}
+#part6{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #FBEDEC;
+}
+#part6 #part1{
+    text-align: center;
+}
+#part6 #part1 h1{
+    font-family: rose quay;
+    color:#EFA755;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 30px 0;
+}
+#part6 #part2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+}
+#part6 #part2 #img1{
+    overflow: hidden;
+}
+#part6 #part2 #img1 img{
+    transition: all ease .3s;
+}
+#part6 #part2 #img1:hover img{
+    scale: 1.2;
+}
+#part6 #part2 #img2{
+    overflow: hidden;
+}
+#part6 #part2 #img2 img{
+    transition: all ease .3s;
+}
+#part6 #part2 #img2:hover img{
+    scale: 1.2;
+}
+#part6 #part2 #img3{
+    overflow: hidden;
+}
+#part6 #part2 #img3 img{
+    transition: all ease .3s;
+}
+#part6 #part2 #img3:hover img{
+    scale: 1.2;
+}
+#part6 #part2 #img4{
+    overflow: hidden;
+}
+#part6 #part2 #img4 img{
+    transition: all ease .3s;
+}
+#part6 #part2 #img4:hover img{
+    scale: 1.2;
+}
+#part6 #part2 #img5{
+    overflow: hidden;
+}
+#part6 #part2 #img5 img{
+    transition: all ease .3s;
+}
+#part6 #part2 #img5:hover img{
+    scale: 1.2;
+}
+#part6 #iconr{
+    font-size: 45px;
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+    left: 98%;
+}
+#part6 #iconl{
+    font-size: 45px;
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+    right: 98%;
+}
+#text_cover p{
+    font-family: gilroy;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+    line-height: 25px;
+}
+#part6 #part3b{
+    width: 100%;
+    text-align: center;
+}
+#part6 #part3b button{
+    padding: 22px 38px;
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: #EFA755;
+    color: white;
+    border: none;
+}
+#part6 #part3 button:hover{
+    background-color: #F1ACBD;
+}
+#part7{
+    padding: 120px 90px;
+    display: flex;
+    justify-content: center;
+    font-family: GILROY;
+    position: relative;
+}
+#part7_left{
+    padding: 45px 40px;
+    background-color: #F8DAE3;
+}
+#part7_right{
+    margin-left: 30px;
+    padding: 15px 0;
+}
+#part7_right h1{
+    font-size: 50px;
+    color: #ED90AD;
+    font-family: rose quay;
+    font-weight: 100;
+}
+#part7_right p{
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 25px;
+    margin-top: 30px;
+}
+#part7_right button{
+    margin-top: 35px;
+    border: none;
+    background-color: #EFA755;
+    padding: 20px 16px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    transition: all ease .5s;
+    text-transform: uppercase;
+}
+#part7_right button:hover{
+    background-color: #EC849C;
+}
+#part7 h4{
+    position: absolute;
+    font-size: 100px;
+    font-family: kimberly signature;
+    font-weight: 100;
+    color: #EFA755;
+    rotate: -7deg;
+    left: 7.3%;
+    top: 5%;
+}
+#part8{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 50px;
+    background-color: #FBEDEC;
+    padding-bottom: 100px;
+}
+#part8_left{
+    position: relative;
+    width: 50%;
+}
+#part8_left #div1{
+    position: absolute;
+    padding: 17px 17px;
+    background-color: white;
+    rotate: -4deg;
+    top: -300px;
+    left: 150px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.103);
+}
+#div2{
+    position: absolute;
+    padding: 17px 17px;
+    background-color: white;
+    rotate: -4deg;
+    top: -30px;
+    left: -30px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.103);
+}
+#part8_right{
+    width: 50%;
+    text-align: center;
+    margin-left: -110px;
+}
+#part8_right h2{
+    font-size: 75px;
+    font-family: kimberly signature;
+    font-weight: 100;
+    margin-top: 70px;
+    color: #E85680;
+}
+#part8_right h3{
+    font-size: 75px;
+    font-family: rose quay;
+    font-weight: 100;
+    margin-top: 50px;
+    color: #EFA755;
+}
+#part8_right h1{
+    font-size: 68px;
+    font-family: love craft;
+    font-weight: 100;
+    color: #E85680;
+    letter-spacing: 8px;
+}
+#part8_right p{
+    font-size: 18px;
+    font-family: gilroy;
+    font-weight: 300;
+    margin-top: 25px;
+    line-height: 30px;
+}
+#part8_right button{
+    padding: 20px 34px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    background-color: #EC849C;
+    margin-top: 75px;
+    border: none;
+}
+#part9{
+    width: 100%;
+    padding: 60px 0;
+}
+#part9 #part1{
+    text-align: center;
+}
+#part9 #part1 h1{
+    font-family: rose quay;
+    color:#EFA755;
+    font-size: 68px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+#part9 #part2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+}
+#part9 #part2 #img1{
+    overflow: hidden;
+}
+#part9 #part2 #img1 img{
+    transition: all ease .3s;
+}
+#part9 #part2 #img1:hover img{
+    scale: 1.2;
+}
+#part9 #part2 #img2{
+    overflow: hidden;
+}
+#part9 #part2 #img2 img{
+    transition: all ease .3s;
+}
+#part9 #part2 #img2:hover img{
+    scale: 1.2;
+}
+#part9 #part2 #img3{
+    overflow: hidden;
+}
+#part9 #part2 #img3 img{
+    transition: all ease .3s;
+}
+#part9 #part2 #img3:hover img{
+    scale: 1.2;
+}
+#part9 #part2 #img4{
+    overflow: hidden;
+}
+#part9 #part2 #img4 img{
+    transition: all ease .3s;
+}
+#part9 #part2 #img4:hover img{
+    scale: 1.2;
+}
+#part9 #iconr{
+    font-size: 45px;
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+    left: 98%;
+}
+#part9 #iconl{
+    font-size: 45px;
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+    right: 98%;
+}
+#part9 #text_cover p{
+    font-family: gilroy;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+    line-height: 25px;
+}
+#part10{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #FBEDEC;
+}
+#part10 h1{
+    font-size: 70px;
+    font-family: love craft;
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+#part10 p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: gilroy;
+    color: #EFA755;
+}
+#part10 input{
+    border-color: red;
+    border: none;
+    padding: 20px 80px;
+    margin-top: 40px;
+}
+#part10 #email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#part10 button{
+    padding: 17px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #EFA755;
+    color: white;
+    margin-top: 40px;
+}
+#part11{
+    padding: 120px 100px;
+    position: relative;
+    font-family: gilroy;
+}
+#part11 #inner{
+    display: flex;
+    background-color: #FBEDEC;
+    padding: 60px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#inner1 img{
+    height: 500px;
+    width: 400px;
+}
+#inner2 img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+#inner3 img{
+    height: 500px;
+    width: 400px;
+}
+#part11 h2{
+    position: absolute;
+    font-size: 75px;
+    font-family: kimberly signature;
+    left: 41%;
+    top: 9%;
+    font-weight: 100;
+    color: #E85680;
+}
+#inner1{
+    position: relative;
+}
+#inner2{
+    position: relative;
+}
+#inner3{
+    position: relative;
+}
+#inner1 h1{
+    position: absolute;
+    top: 81%;
+    left: 30px;
+    color: white;
+    font-size: 26px;
+}
+#inner2 h1{
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    color: white;
+    font-size: 26px;
+}
+#inner3 h1{
+    position: absolute;
+    top: 81%;
+    left: 30px;
+    color: white;
+    font-size: 26px;
+}
+#inner1:hover h1{
+    color: #EC849C;
+}
+#inner2:hover h1{
+    color: #EC849C;
+}
+#inner3:hover h1{
+    color: #EC849C;
+}
+#part12{
+    padding: 100px 0;
+    width: 100%;
+    background-color: #FBEDEC;
+}
+#part12_one{
+    text-align: center;
+    width: 100%;
+}
+#part12 #part12_one h2{
+    font-size: 65px;
+    font-family: kimberly signature;
+    font-weight: 300;
+    color: #EFA755;
+}
+#part12 #part12_one h1{
+    font-size: 70px;
+    font-family: love craft;
+    font-weight: 100;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+}
+#part12_two{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+#part12_two #photo{
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+#part12_two #photo img{
+    height: 300px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#part12_two #photo #photo_video{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+#photo_video #vid{
+    object-fit: cover;
+    object-position: center;
+}
+#overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 100px 20px;
+    text-align: center;
+    opacity: 0;
+    transition: all ease .5s;
+}
+#overlay h4{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
+#overlay:hover{
+    opacity: 1;
+}
+#circle_img{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+#circle_img img{
+    margin-top: 75px;
+}
+#part12_three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 0;
+}
+#part12_three #two{
+    text-align: center;
+}
+#part12_three input{
+    border-color: red;
+    border: none;
+    padding: 20px 80px;
+    margin-top: 40px;
+}
+#part12_three #email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#part12_three button{
+    padding: 17px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #EFA755;
+    color: white;
+    margin-top: 40px;
+}
+#part12_three #two h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: #EC84A4;
+    font-family: gilroy;
+}
+#part12_three #one h1{
+    font-size: 55px;
+    font-family: kimberly signature;
+    margin-bottom: 35px;
+    font-weight: 300;
+    color: #EC84A4;
+    margin-top: 15px;
+}
+#part12_three #one h4{
+    margin-bottom: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: gilroy;
+}
+/* #part12_three #three{
+    margin-top: -100px;
+} */
+#part12_three #three h1{
+    font-size: 55px;
+    font-family: kimberly signature;
+    margin-bottom: 35px;
+    font-weight: 300;
+    color: #EC84A4;
+    margin-top: 15px;
+}
+#part12_three #three h4{
+    margin-bottom: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: gilroy;
+}
+#part12_three #three h5{
+    margin-top: 195px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 15px;
+    font-family: gilroy;
+}
+select{
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#part13{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #F8DAE3;
+    margin-top: -70px;
+}
+#part13 h1{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    font-family: gilroy;
+}
+#yogesh1{
+    position: absolute;
+    height: 600px;
+    width: 350px;
+    background-color: #fce4c9;
+    color: #EC84A4;
+    top: 10%;
+    right: 9%;  
+    border-radius: 15px;
+    padding: 30px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px #e8567f63;
+    transition: all ease .5s;
+    opacity: 0;
+}
+#yogesh1 h1{
+    font-size: 35px;
+    font-family: gilroy;
+    font-weight: 900;
+}
+#yogesh1 h4{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: gilroy;
+    margin-top: 55px;
+}
+#magarde{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+}
+#magarde h6{
+    font-size: 50px;
+}
